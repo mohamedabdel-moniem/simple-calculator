@@ -1,0 +1,36 @@
+#include  <iostream> 
+
+using namespace std;
+
+int main() {
+   int num1, num2, op_num;
+cout << "enter num1: \n";
+cin >> num1;
+cout << "enter num2: \n";
+cin >> num2;
+cout << "enter op num: \n";
+   cout << "1 - [+]\n";
+   cout << "2 - [-]\n";
+   cout << "3 - [/]\n";
+   cout << "4 - [*]\n";
+cin >> op_num;
+   if (op_num == 1)
+{
+   cout << num1+num2;
+}
+else if (op_num == 2)
+{
+   cout << num1-num2;
+}
+else if (op_num == 3)
+{
+   cout << num1/num2;
+}
+else if (op_num ==4)
+ {
+   cout << num1*num2;
+ }  
+ else {
+   cout << "op is not valid\n";
+ }
+}
